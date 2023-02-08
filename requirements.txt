@@ -5,3 +5,4 @@ threading
 aiohttp>=3.8.1
 python-dateutil
 typing_extensions
+twitchAPI
