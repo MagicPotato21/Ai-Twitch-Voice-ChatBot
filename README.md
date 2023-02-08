@@ -27,11 +27,14 @@ TARGET_CHANNEL = 'ADD TWITCH USERNAME HERE'
 
 https://platform.openai.com/account/api-keys
 
-Open Main.py Add API KEY 2 SPOTS
+Open Main.py Add API KEY 2 SPOTS WITH THE SAME CODE ADD API TO BOTH SPOTS
 
 async def on_message(msg: ChatMessage):
+
     print(f'in {msg.room.name}, {msg.user.name} said: {msg.text}')
+
     openai.api_key = "ADD YOUR OPENAI API KEY"
+
     response = openai.Completion.create(
 
 
